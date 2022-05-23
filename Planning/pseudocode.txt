@@ -1,0 +1,17 @@
+- Show begin game modal, which has instructions for game play
+    - if user clicked "play" then init game
+        - Hide the begin game modal
+        - initialize pets age at 0 
+        - initialize pets other stats to zero (hunger,sleepiness and boredom)
+        - Initialize timers for age, hunger, sleepiness and boredom
+            -Age increases every 6 seconds
+                if age is 0-5 , show baby image
+                if age is 6-12, show chile image
+                if age is 13-19 show teen image
+                if age is > 19, show adult image
+            - hunger increases every 2 seconds
+            - boredom increases every 4 second
+            - sleepiness increases every 3 seconds
+                - if hunger and sleepiness or boredom are at their max level(100), game over and pet dies
+                    -show game over modal and invite user to play again
+        -Add event listeners to contorl buttons and allow users to decrement hunger, sleepiness and boredom.

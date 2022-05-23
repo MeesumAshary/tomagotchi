@@ -20,7 +20,7 @@ As a user I want my pet to be able to die if health goes to 0
 ## Stretch Goals
 
 ### Bronze
-
+As a user i want to have a how to play button throughout the game.
 "As a player it's nice to not have my tamagotchi suffer because my life got too busy."
 "As a player I like to have choices for what to feed my tamagotchi."
 "I liked when the app greets me with fanfare and confetti!"
